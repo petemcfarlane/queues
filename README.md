@@ -1,4 +1,6 @@
 Queues
 ======
 
-A Symfony project created on April 1, 2016, 2:20 pm.
+Demo Symfony app for IronMQ and QPush Bundle. 
+
+Also some deckset slides in docs/
