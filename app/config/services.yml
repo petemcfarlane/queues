@@ -7,3 +7,13 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+    message_consumer:
+        class: AppBundle\MessageConsumer
+        arguments: ["@email_service"]
+        tags:
+            - { name: uecode_qpush.event_listener, event: my_queue.message_received, method: sendEmail }
+
+    email_service:
+        class: AppBundle\EmailService
+        arguments: ["@logger"]
