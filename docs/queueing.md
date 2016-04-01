@@ -143,7 +143,7 @@ uecode_qpush:
 
 ```
 $ bin/console uecode:qpush:publish \
-'{ "userId": 123, "emailType": "welcome_email" }'
+'{"userId": 123, "emailType": "welcome_email"}'
 ```
 
 ---
@@ -274,9 +274,10 @@ class MessageConsumer
 
 ---
 
-# Testing
+# Testing With Behat
 
-- With Behat (integration tests touching the api and an inmemory version)
+- Integration tests - just one or two that actually touch the api.
+- For the rest you can use an in-memory simulated queue.
 
 ---
 
