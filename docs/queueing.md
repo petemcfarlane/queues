@@ -14,9 +14,9 @@
 # PubSub MQ Benefits
 
 - Jobs can be non-blocking, improving performance
-- Pubs/Subs/Queues can be scaled independently
 - Architectural separation of concerns
 - Programming language agnostic
+- Pubs/Subs/Queues can be scaled independently
 
 ---
 
@@ -31,12 +31,18 @@
 
 # MQ Considerations
 
-- Extra technology to install, monitor, maintain and learn
+- Extra technology to install, maintain and learn
 - Licence/usage cost
 - Redundancy
 - Speed
 - Delivery confirmation
+
+---
+
+# MQ Considerations
+
 - Security
+- Message retries
 - Platform stability/compatibility
 - Community support
 
@@ -44,18 +50,21 @@
 
 # MQ Solutions
 
-- Self hosted
+### Self hosted
+
 - Active MQ
 - RabbitMQ
 - Beanstalk
-- Open source
-- Cloud Hosted
+
+---
+
+# MQ Solutions
+
+### Cloud Hosted
 - IronMQ
 - Amazon SQS
 - WebSphereMQ
-- Commercial
 - Cloud AMQP
-- Storm
 - RackSpace
 
 ---
@@ -64,12 +73,16 @@
 
 - Easy to use and integrate with Symfony
 - Already in use on the project
-- Offers an abstraction layer on top of several queues
-	- AWS SNS
-	- IronMQ
-	- Sync _(Immediately dispatch and resolve queued events)_
-	- File _(maybe useful for debugging or dev?)_
-	- Custom _(Implement the ProviderInterface)_
+
+---
+
+# QPush Offers an abstraction layer on top of several queues
+
+- AWS SNS
+- IronMQ
+- Sync
+- File
+- Custom
 
 ---
 
@@ -117,14 +130,9 @@ uecode_qpush:
         my_queue:
             provider: ironmq
             options:
-                push_notifications: true
+                push_notifications: false
                 messages_to_receive: 3
                 message_expiration: 300
-                subscribers:
-                    - { 
-                        endpoint: https://example.com/qpush,
-                        protocol: https
-                    }
         ...
 ```
 
@@ -142,7 +150,7 @@ uecode_qpush:
 ### The manual way:
 
 ```
-$ bin/console uecode:qpush:publish \
+$ bin/console uecode:qpush:publish my_queue \
 '{"userId": 123, "emailType": "welcome_email"}'
 ```
 
@@ -287,3 +295,7 @@ class MessageConsumer
 - Docs aren't always clear.
 - Some questionable code, constructor in interface.
 - Tests aren't catching errors.
+
+---
+
+# Thanks
