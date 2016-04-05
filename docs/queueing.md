@@ -1,22 +1,26 @@
 
+![](2277644988_c17dc49e8d_b.jpg)
 # [fit] Queueing
 
 ### [fit]and the QPush Bundle
 
 ---
 
-# PubSub Message Queue
-
-![inline](queue pub sub.png)
-
----
+![](5997668107_0b139b80cf_b.jpg)
 
 # PubSub MQ Benefits
 
 - Jobs can be non-blocking, improving performance
 - Architectural separation of concerns
+- Works well with observer pattern/events
 - Programming language agnostic
 - Pubs/Subs/Queues can be scaled independently
+
+---
+
+# PubSub Message Queue
+
+![inline](queue pub sub.png)
 
 ---
 
@@ -31,9 +35,9 @@
 
 # MQ Considerations
 
-- Extra technology to install, maintain and learn
-- Licence/usage cost
 - Redundancy
+- Message retries
+- Message priority
 - Speed
 - Delivery confirmation
 
@@ -42,9 +46,10 @@
 # MQ Considerations
 
 - Security
-- Message retries
 - Platform stability/compatibility
 - Community support
+- Extra technology to install, maintain and learn
+- Licence/usage cost
 
 ---
 
@@ -90,9 +95,7 @@
 
 Require the package
 
-```
-$ composer require uecode/qpush
-```
+`$ composer require uecode/qpush`
 
 ---
 
@@ -189,10 +192,6 @@ class MyController
     </services>
 </container>
 ```
-
----
-
-# Demo
 
 ---
 
@@ -299,3 +298,8 @@ class MessageConsumer
 ---
 
 # Thanks
+
+people outside st pancras phttps://www.flickr.com/photos/bensutherland/5279672999/in/photolist-7oPNZu-93xGve-93xGjg-93xGL4-93xGQP-6E5KC-93ubS1-93AMZS-93pCCk-93rb5P-y2iasM-9FHkAG-cw9FXf-Ng512-c12GAy-7uZqkt-MDGds-9PWpdP-4QVKQE-5d8c49-c2Qvns-4LALkJ-58wkwV-btLZ1U-7p17wR-8E5qdo-i9KQkn-bJduug-7ZG4HN-6E8Ka9-3SNiC-7ZCTnR-7ZG4SS-qZraFi-8A6bBh-55s5TD-2uphTE-2Mt5rm-3ZVFc-2ujTCk-2MoAuz-2ujP7K-2up5Mo-bCeojV-2ujMPk-7ZG4Qu-2ujHNZ-7ZG4NA-2ujKjt-D1Esk/
+sheep queue https://www.flickr.com/photos/sgua/8693645988/in/photolist-efed55-rh85BC-77conE-75xSrZ-dLcJtN-8XV7io-skx2AM-76D9EC-cS8sY1-8f3AaC-apVjKC-786CyP-aBb6e2-4oy5Q3-kEH4oK-7GhCVj-pUfHwE-5EpbLd-oxe5su-2dvTyB-8GXUpM-dVh3ZV-q3p3qt-dyKyp5-8wdQve-rPkwjt-docnLv-9oNHVS-bmW1BE-8CDT6y-daniYn-8Xmy9D-oabspq-8b3GM1-drjRfk-dch5t5-hAnZwz-ayWqRL-dTDBAH-sJMkc5-s94XxU-eUCF6V-hAq8UR-3JnudX-drk2nU-9zygfb-4cEMLe-raMZjq-9p5J9z-oeQGht
+m25 traffic jam https://www.flickr.com/photos/timo_w2s/2277644988/in/photolist-6yFAP6-ZEgJ2-6rSfDE-4tgwvb-952AR1-a9Tj1v-a8Z5zW-a8Wfyg-4w2ak7-4w2a9f-8QwkYk-awSHGp-a8Zfv5-7Vjomu-a9YJ2Q-a9ksZc-aadraU-im7X5-oBiuP-Tx1VU-8EaVN7-62oE6A-hmDr1-7RdFHm-brApPC-zZqQnJ-8XVD3J-5t5Gz9-938Svw-8x2mPv-im7Mi-8x5kpQ-im89w-4iwnkq
+m25 fast https://www.flickr.com/photos/highwaysagency/5997668107/in/photolist-a9YSY5-aBzt6c-a9YSG9-a9YTvQ-a9XvPL-a8Zyo8-6XTjHE-5PLv1T-5PQKkJ-a8KXv3-76VPsi-3aRAZb-a9UMPP-a8ZBLP-a8Wsxx-a9UKaF-6XPinV-EANm4
