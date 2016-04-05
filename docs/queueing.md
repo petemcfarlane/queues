@@ -6,6 +6,12 @@
 
 ---
 
+# PubSub Message Queue
+
+![inline](queue pub sub.png)
+
+---
+
 ![](5997668107_0b139b80cf_b.jpg)
 
 # PubSub MQ Benefits
@@ -18,11 +24,7 @@
 
 ---
 
-# PubSub Message Queue
-
-![inline](queue pub sub.png)
-
----
+![](2D2960A700000578-3263440-image-a-21_1444219471545.jpg)
 
 # Example use cases for MQ
 
@@ -32,6 +34,8 @@
 - Anything intensive
 
 ---
+
+![](2548214235_60f9d0e7b1_o.jpg)
 
 # MQ Considerations
 
@@ -288,6 +292,8 @@ class MessageConsumer
 
 ---
 
+![](3947612657_35db34783e_b.jpg)
+
 # Issues
 	
 - Qpush bundle clients are not kept up to date.
@@ -299,7 +305,15 @@ class MessageConsumer
 
 # Thanks
 
-people outside st pancras phttps://www.flickr.com/photos/bensutherland/5279672999/in/photolist-7oPNZu-93xGve-93xGjg-93xGL4-93xGQP-6E5KC-93ubS1-93AMZS-93pCCk-93rb5P-y2iasM-9FHkAG-cw9FXf-Ng512-c12GAy-7uZqkt-MDGds-9PWpdP-4QVKQE-5d8c49-c2Qvns-4LALkJ-58wkwV-btLZ1U-7p17wR-8E5qdo-i9KQkn-bJduug-7ZG4HN-6E8Ka9-3SNiC-7ZCTnR-7ZG4SS-qZraFi-8A6bBh-55s5TD-2uphTE-2Mt5rm-3ZVFc-2ujTCk-2MoAuz-2ujP7K-2up5Mo-bCeojV-2ujMPk-7ZG4Qu-2ujHNZ-7ZG4NA-2ujKjt-D1Esk/
-sheep queue https://www.flickr.com/photos/sgua/8693645988/in/photolist-efed55-rh85BC-77conE-75xSrZ-dLcJtN-8XV7io-skx2AM-76D9EC-cS8sY1-8f3AaC-apVjKC-786CyP-aBb6e2-4oy5Q3-kEH4oK-7GhCVj-pUfHwE-5EpbLd-oxe5su-2dvTyB-8GXUpM-dVh3ZV-q3p3qt-dyKyp5-8wdQve-rPkwjt-docnLv-9oNHVS-bmW1BE-8CDT6y-daniYn-8Xmy9D-oabspq-8b3GM1-drjRfk-dch5t5-hAnZwz-ayWqRL-dTDBAH-sJMkc5-s94XxU-eUCF6V-hAq8UR-3JnudX-drk2nU-9zygfb-4cEMLe-raMZjq-9p5J9z-oeQGht
-m25 traffic jam https://www.flickr.com/photos/timo_w2s/2277644988/in/photolist-6yFAP6-ZEgJ2-6rSfDE-4tgwvb-952AR1-a9Tj1v-a8Z5zW-a8Wfyg-4w2ak7-4w2a9f-8QwkYk-awSHGp-a8Zfv5-7Vjomu-a9YJ2Q-a9ksZc-aadraU-im7X5-oBiuP-Tx1VU-8EaVN7-62oE6A-hmDr1-7RdFHm-brApPC-zZqQnJ-8XVD3J-5t5Gz9-938Svw-8x2mPv-im7Mi-8x5kpQ-im89w-4iwnkq
-m25 fast https://www.flickr.com/photos/highwaysagency/5997668107/in/photolist-a9YSY5-aBzt6c-a9YSG9-a9YTvQ-a9XvPL-a8Zyo8-6XTjHE-5PLv1T-5PQKkJ-a8KXv3-76VPsi-3aRAZb-a9UMPP-a8ZBLP-a8Wsxx-a9UKaF-6XPinV-EANm4
+---
+
+### images credits
+
+```
+- people outside st pancras phttps://www.flickr.com/photos/bensutherland/5279672999/in/photolist-7oPNZu-93xGve-93xGjg-93xGL4-93xGQP-6E5KC-93ubS1-93AMZS-93pCCk-93rb5P-y2iasM-9FHkAG-cw9FXf-Ng512-c12GAy-7uZqkt-MDGds-9PWpdP-4QVKQE-5d8c49-c2Qvns-4LALkJ-58wkwV-btLZ1U-7p17wR-8E5qdo-i9KQkn-bJduug-7ZG4HN-6E8Ka9-3SNiC-7ZCTnR-7ZG4SS-qZraFi-8A6bBh-55s5TD-2uphTE-2Mt5rm-3ZVFc-2ujTCk-2MoAuz-2ujP7K-2up5Mo-bCeojV-2ujMPk-7ZG4Qu-2ujHNZ-7ZG4NA-2ujKjt-D1Esk/
+- sheep queue https://www.flickr.com/photos/_dinu/2548214235/in/photolist-5Bxcu1-4Tbgjc-9NJybd-9NFVNX-o8pnDV-fVpQag-pKJNAr-fVq3fM-pKFDiB-n6H3q4-q36PUi-7QTtae-DntCis-D5WetA-fVqafi-Dx3MUV-CYy9Cc-q2CD6i-rTiGwr-asMbjt-9KA6XB-8ppZo1-5SgRvB
+- m25 traffic jam https://www.flickr.com/photos/timo_w2s/2277644988/in/photolist-6yFAP6-ZEgJ2-6rSfDE-4tgwvb-952AR1-a9Tj1v-a8Z5zW-a8Wfyg-4w2ak7-4w2a9f-8QwkYk-awSHGp-a8Zfv5-7Vjomu-a9YJ2Q-a9ksZc-aadraU-im7X5-oBiuP-Tx1VU-8EaVN7-62oE6A-hmDr1-7RdFHm-brApPC-zZqQnJ-8XVD3J-5t5Gz9-938Svw-8x2mPv-im7Mi-8x5kpQ-im89w-4iwnkq
+- m25 fast https://www.flickr.com/photos/highwaysagency/5997668107/in/photolist-a9YSY5-aBzt6c-a9YSG9-a9YTvQ-a9XvPL-a8Zyo8-6XTjHE-5PLv1T-5PQKkJ-a8KXv3-76VPsi-3aRAZb-a9UMPP-a8ZBLP-a8Wsxx-a9UKaF-6XPinV-EANm4
+- many laned motorway http://www.dailymail.co.uk/news/peoplesdaily/article-3263440/Thousands-motorists-stranded-Beijing-motorway-incredible-50-lane-traffic-jam-week-long-national-holiday-wraps-up.html
+- f1 crash https://www.flickr.com/photos/mypoorbrain/3947612657/in/photolist-iYF3j4-iKrUr5-iQPw4e-9NGKrb-kuysnP-9NFVNX-g4P8w-9NEwpU-9NBBMn-9NKJWL-9NH11D-m4tfVT-9NGabs-9Nv8dj-9NDZCz-m49Ut8-qJTbkF-m4Xihc-m48Gf2-m4Zgt7-9NJKMw-9NC5eF-awz4sm-cWEfrY-5YaAW3-dkpYrM-apYmmR-78aKP8-4jFvvK-utP7qK-eaR4uc-9YvRMT-eZKSBS-artHwi-atuLRf-arwmmL-artHtp-oHEyeN-6bvgA2-arwmaW-71QwMz-71QxHc-hjerpQ-4VwB3w-7FUSFJ-4yMRGS-a9j5dP/
+```
