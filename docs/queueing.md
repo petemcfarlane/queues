@@ -31,7 +31,7 @@
 - Report generation
 - Sending Emails
 - Fetching data from third-party APIs
-- Anything intensive
+- Anything intensive (and asynchronous)
 
 ---
 
@@ -43,6 +43,7 @@
 - Message retries
 - Message priority
 - Speed
+- Ordering
 - Delivery confirmation
 
 ---
