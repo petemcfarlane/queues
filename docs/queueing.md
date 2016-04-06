@@ -1,5 +1,4 @@
-autoscale: true
-build-lists:true
+autoscale: truebuild-lists:true
 
 ![](2277644988_c17dc49e8d_b.jpg)
 # [fit] Queueing
@@ -9,8 +8,6 @@ build-lists:true
 ---
 
 # PubSub Message Queue
-
-<!-- ![inline](queue pub sub.png) -->
 
 ![inline](construction-worker-silhouette-eleman.png)![inline 30%](funnel-black-filter-pictogram.png)![inline](Construction-Workers-silhouette-vector.png)
 
@@ -298,6 +295,7 @@ class MessageConsumer
 - Tests aren't catching errors.
 
 ---
+![](5997668107_0b139b80cf_b.jpg)
 
 # Thanks
 

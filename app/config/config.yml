@@ -81,5 +81,6 @@ uecode_qpush:
                 push_notifications: true
                 messages_to_receive: 3
                 message_expiration: 300
+
                 subscribers:
                     - { endpoint: "%qpush.endpoint%", protocol: "%qpush.protocol%" }
